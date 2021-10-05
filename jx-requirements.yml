@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "2886795305-80-kota01.environments.katacoda.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
