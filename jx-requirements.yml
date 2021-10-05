@@ -22,8 +22,8 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: 2886795305-80-kota01.environments.katacoda.com
-    kind: ingress
+    domain: "2886795269-80-lando01.environments.katacoda.com"
+    externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
