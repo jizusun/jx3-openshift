@@ -32,16 +32,20 @@ jxRequirements:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: jizusun
+    repository: jx3-openshift
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: 2886795305-80-kota01.environments.katacoda.com
     kind: ingress
     namespaceSubDomain: -tekton-pipelines.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: jizugituser
   repository: bucketrepo
   secretStorage: local
   vault: {}
